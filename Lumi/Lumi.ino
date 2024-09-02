@@ -218,7 +218,7 @@ void setup() {
   // timerAlarm(servoTimer, SERVO_WAIT * 1000, false, 0);
 
   // initialize touch interrupt 
-  touchAttachInterrupt(T6, touchISR, 60);
+  touchAttachInterrupt(T6, touchISR, 50);
     
   // initialize non volatile storage
   prefs.begin("credentials", false);
